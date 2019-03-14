@@ -26,6 +26,7 @@ public class ProdutoControle extends HttpServlet {
     protected void processRequest()
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
+        String cmd = request.getParameter("cmd");
     }
     
     private void salvar(){
